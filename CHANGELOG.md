@@ -15,3 +15,11 @@
 ## [1.0.3] - 2022-09-17
 
 * Update Kotlin Version from 1.3.50 to 1.5.20
+
+## [1.0.4] - 2025-01-16
+
+* Updated plugin to support Flutter 3.29.0
+* Removed deprecated `PluginRegistry.Registrar` import and `registerWith` method from Android plugin
+* Updated Flutter SDK constraints to support Flutter 3.29.0 and beyond
+* Fixed deprecated test method calls to use new Flutter testing API
+* Removed unnecessary `@SuppressWarnings("deprecation")` annotations
